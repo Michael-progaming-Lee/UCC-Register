@@ -1,0 +1,35 @@
+/* Add your custom styles here */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+#logo {
+    width: 100px;
+    height: auto;
+    margin-right: 1rem;
+}
+main {
+    padding: 2rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+#search-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}

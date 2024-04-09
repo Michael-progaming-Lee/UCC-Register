@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Student Display.css">
+        <title>UCC Students</title>
+    </head>
+    <body>
+        <header>
+            <!-- Replace # with your logo image source -->
+            <div id="logo"></div>
+            <h1>University of Common Wealth Caribbean</h1>
+        </header>
+        <main>
+            <h2>Current Students</h2>
+            <input type="text" id="search-input" placeholder="Search for a student...">
+            <table id="students-table">
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Contact Number</th>
+                        <th>Address</th>
+                        <th>Next of Kin</th>
+                        <th>Program</th>
+                    </tr>
+                </thead>
+                <tbody id="students-table-body"></tbody>
+            </table>
+        </main>
+        <script src="scripts.js"></script>
+    </body>
+</html>
